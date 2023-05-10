@@ -7,9 +7,10 @@ const Avatar = () => {
       height={30}
       width={30}
       alt="Avatar"
-      src="/images/placeholder.jpg"
+      src="/images/placeholder.png"
+      placeholder="empty"
       blurDataURL={
-        "/images/placeholder.jpg"
+        "/images/placeholder.png"
       }
     />
   );
