@@ -42,6 +42,7 @@ const Input: React.FC<InputProps> = ({
         disabled={disabled}
         {...register(id, { required })}
         placeholder=" "
+        autoComplete=""
         type={type}
         className={`
           peer
